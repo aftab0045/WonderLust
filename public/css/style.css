@@ -1,7 +1,16 @@
-/* body {
-    background-color: pink;
-} */
+ body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
 
+.container {
+    flex: 1;
+}
+
+
+/* Navbar */
 .navbar{
     height: 5rem ;
     background-color: white;
@@ -72,3 +81,12 @@
     text-decoration: none;
 }
 
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
